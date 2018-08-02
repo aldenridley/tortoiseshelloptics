@@ -1,0 +1,188 @@
+html,
+body {
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+/* header scetion */
+
+.header {
+  display: flex;
+  background-color: cadetblue;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+}
+
+.header .logo {
+  align-items: center;
+}
+
+.header .logo img {
+  margin-right: 1rem;
+  margin-left: 2rem;
+  margin-top: 1.5rem;
+  height: 1.5rem;
+  padding-bottom: 1rem;
+  width: auto;
+  align-items: center;
+}
+
+.header .title span {
+  font-family: helvetica;
+  font-size: 1rem;
+  color: white;
+  margin-right: 45rem;
+}
+
+.header nav span{
+  font-family: helvetica;
+  margin-top: 1rem;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+/* main-banner section */
+
+.background {
+  height: 25rem;
+  width: 100%;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover
+}
+
+.banner {
+  padding-top: 10rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.main-banner {
+  background-color: white;
+  display: flex;
+  margin-right: 2.5rem;
+}
+.main-banner span {
+  padding: 1.5rem 5rem;
+  color: black;
+  font-family: helvetica;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+/* offers scetion */
+
+.offers {
+  display: flex;
+  height: 8rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.exam span,
+.fitting span,
+.delivery span {
+  display: block;
+  font-family: helvetica;
+}
+
+.exam,
+.fitting,
+.delivery {
+  text-align: center
+}
+
+.exam,
+.fitting {
+  margin-right: 6rem;
+}
+
+.exam img {
+  width: 3.5rem;
+  height: auto;
+}
+
+.delivery img {
+  width: 5rem;
+  height: auto;
+}
+
+.fitting img {
+  width: 5rem;
+  height: auto;
+}
+
+/* info section */
+
+.info-box {
+  display: flex;
+  font-family: helvetica;
+  justify-content: center;
+}
+
+.info-head {
+  display: flex;
+  background-color: cadetblue;
+  width: 10rem;
+  margin-bottom: 1rem;
+}
+
+.info-head h1 {
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+  margin-left: 1.25rem;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.philosophy span,
+.appointments span {
+  width: 35%;
+}
+
+.philosophy {
+  margin-right: 5%;
+}
+
+.philosophy,
+.appointments {
+  max-width: 35%;
+}
+
+/* footer section  */
+
+.footer {
+  background-color: azure;
+  display: flex;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.foot-logo img {
+  display: flex;
+  height: 1.5rem;
+  width: auto;
+  margin-left: 4rem;
+  margin-right: 1rem;
+}
+
+.collection {
+  display: flex;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.foot-title {
+  font-family: helvetica;
+}
