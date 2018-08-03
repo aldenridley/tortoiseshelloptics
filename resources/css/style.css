@@ -34,7 +34,7 @@ body {
   font-family: helvetica;
   font-size: 1rem;
   color: white;
-  margin-right: 45rem;
+  /* margin-right: 45rem; */
 }
 
 .header nav span{
@@ -43,6 +43,18 @@ body {
   margin-right: 2rem;
   margin-bottom: 1rem;
   color: white;
+}
+
+.newnavdiv nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.title {
+  min-width: 45%;
+}
+.newnavdiv {
+  width: 100%;
 }
 
 /* main-banner section */
@@ -192,4 +204,26 @@ body {
 a {
   color: white;
   text-decoration: none;
+}
+
+/* media queries */
+
+@media only screen and (max-width: 1024px) {
+
+  .background {
+    height: 19rem;
+  }
+
+  .banner {
+    padding-top: 5rem;
+  }
+
+  .main-banner span {
+    padding: .75rem 4rem;
+    font-size: 1.33rem;
+  }
+
+  .main-banner {
+    margin-right: 2rem;
+  }
 }
