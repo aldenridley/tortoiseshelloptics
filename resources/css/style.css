@@ -186,3 +186,10 @@ body {
 .foot-title {
   font-family: helvetica;
 }
+
+/* links */
+
+a {
+  color: white;
+  text-decoration: none;
+}
