@@ -34,7 +34,6 @@ body {
   font-family: helvetica;
   font-size: 1rem;
   color: white;
-  /* margin-right: 45rem; */
 }
 
 .header nav span{
@@ -87,6 +86,10 @@ body {
   font-size: 2rem;
   line-height: 1.2;
   text-transform: uppercase;
+}
+
+.phone-target {
+  display: none;
 }
 
 /* offers scetion */
@@ -225,5 +228,97 @@ a {
 
   .main-banner {
     margin-right: 2rem;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .background {
+    height: 14rem;
+    background-position: 20%;
+  }
+
+  .banner {
+    padding-top: 9rem;
+  }
+
+  .main-banner span {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1rem;
+  }
+
+  .main-banner {
+    margin-right: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .header .title span {
+    display: none;
+  }
+  .noshow {
+    display: none;
+  }
+
+  .phone-target {
+    display: inherit;
+  }
+
+  .offers {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 3rem;
+  }
+
+  .combo {
+    height: auto;
+    margin: .77rem;
+    font-size: .77rem;
+  }
+
+
+  .info-box {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top:15rem;
+  }
+
+  .philosophy,
+  .appointments{
+    width: 100%;
+    max-width: none;
+  }
+
+  .info-head {
+    width: 100%;
+    max-width: none;
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .philosophy span,
+  .appointments span{
+    padding: 1rem;
+    font-size: .77rem;
+  }
+
+  .philosophy {
+    margin-right: 0;
+    margin-bottom: 4rem;
+  }
+
+  .foot-title {
+    display: none;
+  }
+
+  .footer {
+    justify-content: center;
+  }
+
+  .foot-logo img {
+    margin-left: 0;
+    margin-right: 0;
   }
 }
